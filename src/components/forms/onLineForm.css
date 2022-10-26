@@ -1,0 +1,68 @@
+body {
+  /* fallback for old browsers */
+  background: #a1c4fd;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    rgba(161, 196, 253, 1),
+    rgba(194, 233, 251, 1)
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    to right,
+    rgba(161, 196, 253, 1),
+    rgba(194, 233, 251, 1)
+  );
+}
+.form-check-label {
+  font-size: 12px;
+}
+.label-header-radio {
+  min-width: 80px;
+}
+.bg-indigo {
+  background-color: #99401f;
+}
+.bg-indigo .form-outline .form-control {
+  color: #fff;
+}
+.form-check-input[type="radio"]:checked:after {
+  left: 10px !important;
+  top: 12px !important;
+}
+
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 759px) {
+  .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+@media (max-width: 758px) {
+  .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+
+@media (min-width: 759px) {
+  .card-registration-2 .bg-white {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+}
+
+@media (max-width: 758px) {
+  .card-registration-2 .bg-white {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}
