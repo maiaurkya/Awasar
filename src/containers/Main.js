@@ -13,7 +13,7 @@ import Error404 from "../pages/errors/error404/Error";
 
 export default class Main extends Component {
   render() {
-    if (settings.isSplash) {
+    if (!settings.isSplash) {
       return (
         <div>
           <HashRouter basename="/">

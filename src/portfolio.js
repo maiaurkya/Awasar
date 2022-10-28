@@ -2,8 +2,10 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
+
+const baseUrl = "http://localhost:3001/";
 
 //SEO Related settings
 const seo = {
@@ -52,14 +54,14 @@ const socialMediaLinks = [
     link: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-    show: true,
+    show: false,
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/channel/UC_amoXmmxSY9KusoDczDTXQ",
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-    show: true,
+    show: false,
   },
   {
     name: "Gmail",
@@ -80,14 +82,14 @@ const socialMediaLinks = [
     link: "https://www.facebook.com/laymanbrother.19/",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-    show: true,
+    show: false,
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/layman_brother/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-    show: true,
+    show: false,
   },
   {
     name: "whatsapp",
@@ -585,7 +587,7 @@ const contactPageData = {
 // Form Page
 const formPageData = {
   formSection: {
-    title: "Fill to get the Scholarship!",
+    title: "Find The Right Scholarship For You",
     profile_image_path: "animated_ashutosh.png",
     description:
       "We love our visitors, so feel free to visit during normal business hours.",
