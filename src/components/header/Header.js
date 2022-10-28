@@ -96,7 +96,7 @@ class Header extends Component {
                   Contact Us
                 </NavLink>
               </li>
-			<li>
+			{/*<li>
                 <NavLink
                   to="/form"
                   tag={Link}
@@ -105,9 +105,9 @@ class Header extends Component {
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Apply Here
+                  Scholarship
                 </NavLink>
-              </li>
+              </li>*/}
 			{/*<li>
                 <NavLink
                   to="/stories"

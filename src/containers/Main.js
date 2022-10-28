@@ -21,9 +21,7 @@ export default class Main extends Component {
               <Route
                 path="/"
                 exact
-                render={(props) => (
-                  <Splash {...props} theme={this.props.theme} />
-                )}
+                render={(props) => <Home {...props} theme={this.props.theme} />}
               />
               <Route
                 path="/home"
