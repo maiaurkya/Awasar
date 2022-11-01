@@ -2,6 +2,8 @@ const express = require("express");
 const bodyParser = require("body-parser");
 var enquiryAPIRouter = require("./routes/enquiryListApi");
 var cors = require("cors");
+const port = 3001;
+const hostname = '0.0.0.0';
 
 app = express();
 app.use(bodyParser.urlencoded({ extended: false, limit: "10mb" }));
