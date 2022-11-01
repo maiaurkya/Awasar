@@ -15,6 +15,6 @@ app.use("/", (req, res) => {
     res.status(404).send({ status_msg: "404 Method Not found", msg: "Method Not Found" });
 });
 
-app.listen(port, hostname () => {
-    console.log(`listening on port http://${hostname}:${port}`);
+app.listen(port, () => {
+    console.log(`listening on port:${port}`);
 });
