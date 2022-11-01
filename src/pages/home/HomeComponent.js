@@ -10,13 +10,12 @@ class Home extends Component {
   render() {
     return (
       <div>
-		<img></img>
         <Header theme={this.props.theme} />
         <Greeting theme={this.props.theme} />
         <Skills theme={this.props.theme} />
         <Footer theme={this.props.theme} />
         <TopButton theme={this.props.theme} />
-		<Announcement theme={this.props.theme} />
+		    <Announcement theme={this.props.theme} />
       </div>
     );
   }

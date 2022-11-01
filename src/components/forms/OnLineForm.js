@@ -14,10 +14,10 @@ import Button from "../../components/button/Button";
 import "./onLineForm.css";
 import "./core.css";
 import { Fade } from "react-reveal";
-import {baseUrl,enquiryFormSucessMsg, status} from '../../constant';
+import {enquiryFormSucessMsg, status} from '../../constant';
 
 function OnLineForm(props) {
-  const {title,theme,phoneSection} = props;
+  const {title,theme,phoneSection, baseUrl} = props;
   const [inputField , setInputField] = useState({
 		formValues: {}
 	})

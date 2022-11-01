@@ -10,7 +10,7 @@ import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
   console.log("props:", props.fileName, props);
-  if (props.fileName === "engineers" || props.fileName === "doctors")
+  if (props.fileName === "engineers" || props.fileName === "doctors" || props.fileName === "director")
     return <DataScienceImg theme={props} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props} />;
