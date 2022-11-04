@@ -538,7 +538,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "76,East Boring Canal Road, Near Hartali More, Patna, Bihar 800001",
+      "76, East Boring Canal Road, Near Hartali More, Patna, Bihar 800001",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/aGAWp33vXxSwGK788",
   },
