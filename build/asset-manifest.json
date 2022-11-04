@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.6ffe725b.chunk.css",
-    "main.js": "./static/js/main.5c7a3972.chunk.js",
-    "main.js.map": "./static/js/main.5c7a3972.chunk.js.map",
+    "main.css": "./static/css/main.dcd704bb.chunk.css",
+    "main.js": "./static/js/main.b679fade.chunk.js",
+    "main.js.map": "./static/js/main.b679fade.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
     "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
     "static/css/2.de424728.chunk.css": "./static/css/2.de424728.chunk.css",
-    "static/js/2.6e697cc4.chunk.js": "./static/js/2.6e697cc4.chunk.js",
-    "static/js/2.6e697cc4.chunk.js.map": "./static/js/2.6e697cc4.chunk.js.map",
+    "static/js/2.11e58966.chunk.js": "./static/js/2.11e58966.chunk.js",
+    "static/js/2.11e58966.chunk.js.map": "./static/js/2.11e58966.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f40fca41ee37ddb497e96672a1dae5f9.js": "./precache-manifest.f40fca41ee37ddb497e96672a1dae5f9.js",
+    "precache-manifest.e223f5b3e0402ffe1bcf92e66b3a190c.js": "./precache-manifest.e223f5b3e0402ffe1bcf92e66b3a190c.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.de424728.chunk.css.map": "./static/css/2.de424728.chunk.css.map",
-    "static/css/main.6ffe725b.chunk.css.map": "./static/css/main.6ffe725b.chunk.css.map",
+    "static/css/main.dcd704bb.chunk.css.map": "./static/css/main.dcd704bb.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "./static/media/address_image.f29dcb7b.svg",
     "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.be4f4800.png",
@@ -63,8 +63,8 @@
   "entrypoints": [
     "static/js/runtime-main.fff6ee50.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.6e697cc4.chunk.js",
-    "static/css/main.6ffe725b.chunk.css",
-    "static/js/main.5c7a3972.chunk.js"
+    "static/js/2.11e58966.chunk.js",
+    "static/css/main.dcd704bb.chunk.css",
+    "static/js/main.b679fade.chunk.js"
   ]
 }

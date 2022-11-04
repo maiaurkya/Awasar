@@ -1,7 +1,38 @@
 .education-main {
   width: 100%;
 }
+.education-main .main{
+margin-top: 0px;
+}
+.education-main .card-img {
+    width: 190px;
+    height: auto;
+    border-radius: 50% !important;
+    padding: 10px;
+    border: 1px solid #d9dbdf;
+    background-color: #6c63ff;
+    background: transparent;
+    box-shadow: 5px 5px 5px #d9dbdf;
+    text-align: center;
+    line-height: 6;
+}
 
+.education-main .card-img label{
+	margin-bottom: 0px;
+	font-size: 25px;
+}
+.education-main h3.stage {
+    font-size: 18px;
+    font-weight: 600;
+}
+.education-main .content-list{
+    font-size: 12px;
+    font-weight: 400;
+}
+.education-main .content-list label{
+    font-size: 14px;
+    font-weight: 600;
+}
 .basic-education {
   margin-left: 5%;
   margin-right: 5%;
@@ -47,7 +78,7 @@
 @media (max-width: 1380px) {
   .heading-text {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 150px;
   }
   .heading-sub-text {
     font-size: 25px;

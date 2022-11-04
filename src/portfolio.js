@@ -190,6 +190,23 @@ const skills = {
   ],
 };
 
+const directorMsg = {
+  data: [
+	{
+	title: "Become An Awasar",
+      fileName: "director",
+      show: true,
+      skills: [
+        "It is indeed exciting to know that, in spite of the setback caused by the Corona pandemic, exams are going to be conducted again at the all-India level to select talented students from different parts of our great country. I am particularly pleased to learn that, despite the difficulties posed by the pandemic, AWASAR Coaching has still managed to send a dozen students to the IITs. This gives me hope and confidence that, next year, more than fifty poor and deserving students will be able to join the IITs thanks to AWASAR's assistance. Such success is vital if we are to provide opportunities for all sections of society regardless of their background or circumstances.",
+      ],
+      softwareSkills: [
+        
+      ],
+    },
+  ],
+};
+
+
 // Education Page
 const competitiveSites = {
   competitiveSites: [
@@ -239,131 +256,195 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
+      title: "About AWASAR",
+      label: "AWASAR",
+      subtitle: "",
       logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - Present",
+      alt_name: "awsar",
+      duration: "2018 - Present",
+      type: false,
+      boxShadow: "5px 5px 5px #a93217",
+      bodyColor: "#a93217",
+      titleColor: "#fff",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ AWASAR is aPatna based non-profit organisation to provide free education, boarding and lodging to economically weak and talented students through its AWASAR Program.",
+        "⚡ AWASAR belives in reaching oot to learners accross the country.",
+        "⚡ With the vision of delivering quality academics in far flungareas, we have designed different models to reach out to learns.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "#/form",
     },
+    {
+      title: "About AWASAR-50",
+      label: "AWASAR50",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "awasar-50",
+      duration: "2018 - Present",
+      type: false,
+      boxShadow: "rgb(215 136 19) 5px 5px 5px",
+      bodyColor: "rgb(215 136 19)",
+      titleColor: "#fff",
+      descriptions: [
+        "⚡ AWASAR-50 is a residential mentoring program for JEE Main / Advanced examination to the selected students.",
+        "⚡ In this program selected students are being provided the Free Tution, Free Boarding and lodging.",
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "Selection Procedure",
+      label: "PROCEDURE",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "selection Procedure",
+      duration: "",
+      type: false,
+      boxShadow: "rgb(86 23 169) 5px 5px 5px",
+      bodyColor: "rgb(86 23 169)",
+      titleColor: "#fff",
+      descriptions: [
+        "⚡ Each Year we conduct ATSE - AWASAR TALENT SEARCH EXAMINATION (A three-stage exam i.e, Prelims, Mains and Interview) to select students in our AWASAR-50 Program.",
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "Venue of the ATSE-2023",
+      label: "VENUE",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "Venue of the ATSE-2023",
+      duration: "",
+      type: false,
+      boxShadow: "rgb(15 103 122) 5px 5px 5px",
+      bodyColor: "rgb(15 103 122)",
+      titleColor: "#fff",
+      descriptions: [
+        "⚡ Last year the exam has been conducted on more than 56 places accross the country.",
+        "⚡ ATSE 2023 will be conducted in different shift starting from the end of November 2022.",
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "Eligibility to participate in ATSE 2023",
+      label: "ELIGIBILITY",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "Eligibility to participate in ATSE 2023",
+      duration: "",
+      type: false,
+      boxShadow: "5px 5px 5px #161c22",
+      bodyColor: "#161c22",
+      titleColor: "#fff",
+      descriptions: [
+        "⚡ Any student who wants to became an engineer from institute of national importnce (IITs, NITs etc) and currently studying in class 10th can apply for ATSE-2023.",
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "Pattern of the ATSE-2023 Exam",
+      label: "PATTERN",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "Pattern of the ATSE-2023 Exam",
+      duration: "",
+      type: "stage",
+      boxShadow: "5px 5px 5px #c7922b",
+      bodyColor: "#c7922b",
+      titleColor: "#fff",
+      descriptions: [],
+      stageDetails: [
+      {
+      	stage: 1,
+      	type: "MCQs (Single Correct)",
+      	noOfQues: "80",
+      	duration: "120 Minutes",
+      	Pattern: "50 Question from Mathematics, 10Mat, 20 Science",
+      },
+      {
+      	stage: 2,
+      	type: "MCQs (Single Correct)",
+      	noOfQues: "100",
+      	duration: "120 Minutes",
+      	Pattern: "60 Question from Mathematics, 20Mat, 20 Science",
+      }
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "Application Procedure for ATSE 2023",
+      label: "Apply",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "Application Procedure for ATSE 2023",
+      duration: "",
+      type: false,
+      boxShadow: "5px 5px 5px #a93217",
+      bodyColor: "#a93217",
+      titleColor: "#fff",
+      descriptions: [
+        "⚡ Online Mode: Aspirants can below right corner button 'Apply for ATSE - 2023' for online application.",
+        "⚡ Offline Mode: One can visit nearest SIS Office for offline application for the exam.",
+        "⚡ Contact: You can make a call at 7763071141, 7903218495 for more details and assistance.",
+        "⚡ Head office: AWASAR Building, Near Zakir Hussain Sansthan, Officer's Flat, hartali More, Bailey Road Patna-800001.",
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "Exam Dates of ATSE - 2023",
+      label: "Exams",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "Application Procedure for ATSE 2023",
+      duration: "",
+      type: "exam",
+      boxShadow: "rgb(215 136 19) 5px 5px 5px",
+      bodyColor: "rgb(215 136 19)",
+      titleColor: "#fff",
+      descriptions: [],
+      stageDetails: [
+      {
+      	stage: "Date of Prelis (Satge-1)",
+      	date1:" 20th November 2022",
+      	date2:" 27th November 2022",
+      	date3:" 04th Deceber 2022",
+      	date4:" 11th December 2022",
+      	date5:" 18th December 2022",
+      	date6:" 25th December 2022",
+      },
+      {
+      	stage: "Date of Prelis (Satge-2)",
+      	date1:" To Be Decided After Stage-1",
+      }
+      ],
+      website_link: "#/form",
+    },
+    {
+      title: "FAQs about your doubts",
+      label: "FAQs",
+      subtitle: "",
+      logo_path: "iiitk_logo.png",
+      alt_name: "FAQs about your doubts",
+      duration: "",
+      type: "faq",
+      boxShadow: "rgb(86 23 169) 5px 5px 5px",
+      bodyColor: "rgb(86 23 169)",
+      titleColor: "#fff",
+      descriptions: [],
+      stageDetails:[
+      {
+      	interViewStage: " Aspirants qualified for interview round will be called for a personality test which will be held in Patna, Bihar.",
+      	FinalSelection:" Aspirants will be selected for AWASAR-50 Batch on the basis of their performance in stage-2 and interview only.",
+      	notSelected:" All the students who will not be selected in our AWASAR-50 batch will be offered our other batches where they will be provided scholarship on their tution fee on the basis of their performance in the different stages of ATSE - 2023",
+      }
+      ],
+      website_link: "#/form",
+    },
+    
   ],
 };
 
 const certifications = {
   certifications: [
-    {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    
   ],
 };
 
@@ -457,7 +538,7 @@ const contactPageData = {
   addressSection: {
     title: "Address",
     subtitle:
-      "76, E Boring Canal Rd, near Pahalwan Market, Anandpuri, Patna, Bihar 800001",
+      "76,East Boring Canal Road, Near Hartali More, Patna, Bihar 800001",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/aGAWp33vXxSwGK788",
   },
@@ -495,4 +576,5 @@ export {
   publications,
   contactPageData,
   formPageData,
+  directorMsg,
 };
