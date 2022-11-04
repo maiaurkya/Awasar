@@ -22,7 +22,7 @@ const Enquiries = function(enquiries) {
 
 Enquiries.create = (newEnquiries, result) => {
 	console.log("newEnquiries: ",newEnquiries, newEnquiries.phone_number);
-  sql.query(`SELECT * FROM enquiries WHERE (phone_number='${newEnquiries.phone_number}' || email='${newEnquiries.email}')`, (err, res) => {
+  sql.query(`SELECT * FROM enquiries WHERE (phone_number='${newEnquiries.phone_number}' or email='${newEnquiries.email}')`, (err, res) => {
   try{  
   if (err) {
       console.log("errorssssssssssssssssssss: ", err);
@@ -53,7 +53,7 @@ Enquiries.create = (newEnquiries, result) => {
 };
 
 const findBySelector = (value1, value2, result) => {
-  sql.query(`SELECT * FROM enquiries WHERE (phone_number='${value1}' || email='${value2}')`, (err, res) => {
+  sql.query(`SELECT * FROM enquiries WHERE (phone_number='${value1}' or email='${value2}')`, (err, res) => {
     if (err) {
       console.log("error: ", err);
       result(err, null);

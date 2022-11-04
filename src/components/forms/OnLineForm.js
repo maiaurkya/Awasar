@@ -51,7 +51,7 @@ function OnLineForm(props) {
 		if(!readyToCall){
 			const requestOptions = {
 				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
+			        headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(inputField.formValues)
 			};
 			fetch(`${baseUrl}enquiry/create`, requestOptions)

@@ -5,7 +5,7 @@ const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
-const baseUrl = "http://localhost:3001/";
+const baseUrl = "https://api.awasaredu.com/";
 
 //SEO Related settings
 const seo = {

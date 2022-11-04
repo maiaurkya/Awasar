@@ -12,7 +12,7 @@ class Announcement extends Component {
 					<label>Announcing!</label>
 					<p className="small-text">Get Your</p>
 					<p className="scholarship">Scholarship</p>
-					<p className="session">session: 2022-2023</p>
+					<p className="session">session: 2023-2024</p>
 				</div>
 			</a>
 			</div>
