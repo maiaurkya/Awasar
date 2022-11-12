@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.dcd704bb.chunk.css",
-    "main.js": "./static/js/main.0d4cc225.chunk.js",
-    "main.js.map": "./static/js/main.0d4cc225.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.fff6ee50.js",
-    "runtime-main.js.map": "./static/js/runtime-main.fff6ee50.js.map",
+    "main.css": "./static/css/main.ec095cc8.chunk.css",
+    "main.js": "./static/js/main.0b871856.chunk.js",
+    "main.js.map": "./static/js/main.0b871856.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.6cb6eeb0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.6cb6eeb0.js.map",
     "static/css/2.de424728.chunk.css": "./static/css/2.de424728.chunk.css",
-    "static/js/2.11e58966.chunk.js": "./static/js/2.11e58966.chunk.js",
-    "static/js/2.11e58966.chunk.js.map": "./static/js/2.11e58966.chunk.js.map",
+    "static/js/2.6853f686.chunk.js": "./static/js/2.6853f686.chunk.js",
+    "static/js/2.6853f686.chunk.js.map": "./static/js/2.6853f686.chunk.js.map",
+    "static/js/3.a3818126.chunk.js": "./static/js/3.a3818126.chunk.js",
+    "static/js/3.a3818126.chunk.js.map": "./static/js/3.a3818126.chunk.js.map",
+    "static/js/4.2528dd34.chunk.js": "./static/js/4.2528dd34.chunk.js",
+    "static/js/4.2528dd34.chunk.js.map": "./static/js/4.2528dd34.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.33f9f1923db4a66ec5ca0140dbb2ae71.js": "./precache-manifest.33f9f1923db4a66ec5ca0140dbb2ae71.js",
+    "precache-manifest.b60c234da86776205df223809ee63cc2.js": "./precache-manifest.b60c234da86776205df223809ee63cc2.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.de424728.chunk.css.map": "./static/css/2.de424728.chunk.css.map",
-    "static/css/main.dcd704bb.chunk.css.map": "./static/css/main.dcd704bb.chunk.css.map",
+    "static/css/main.ec095cc8.chunk.css.map": "./static/css/main.ec095cc8.chunk.css.map",
+    "static/media/ATSE-2022.pdf": "./static/media/ATSE-2022.4b117855.pdf",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "./static/media/address_image.f29dcb7b.svg",
     "static/media/animated_ashutosh.png": "./static/media/animated_ashutosh.be4f4800.png",
@@ -45,6 +50,7 @@
     "static/media/intel_logo.jpg": "./static/media/intel_logo.29152cf7.jpg",
     "static/media/jsFramework.svg": "./static/media/jsFramework.5b4a6449.svg",
     "static/media/legato_logo.png": "./static/media/legato_logo.c597fbde.png",
+    "static/media/logo.png": "./static/media/logo.7cbf2214.png",
     "static/media/manOnTable.svg": "./static/media/manOnTable.83ac24fb.svg",
     "static/media/muffito_logo.png": "./static/media/muffito_logo.069938a8.png",
     "static/media/nptel_logo.png": "./static/media/nptel_logo.95a12a2b.png",
@@ -61,10 +67,10 @@
     "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fff6ee50.js",
+    "static/js/runtime-main.6cb6eeb0.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.11e58966.chunk.js",
-    "static/css/main.dcd704bb.chunk.css",
-    "static/js/main.0d4cc225.chunk.js"
+    "static/js/2.6853f686.chunk.js",
+    "static/css/main.ec095cc8.chunk.css",
+    "static/js/main.0b871856.chunk.js"
   ]
 }

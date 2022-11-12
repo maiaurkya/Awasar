@@ -69,26 +69,30 @@ exports.findAll = (req, res) => {
 };
 // Find a single Customer with a customerId
 exports.findOne = (req, res) => {
-	Enquiries.findById(req.params.courseId, (err, data) => {
+	console.log("findOne:",req.params);
+	Enquiries.findById(req.params.selector, (err, data) => {
 	    if (err) {
 	      if (err.kind === "not_found") {
-		res.status(404).send({
+		res.status(200).send({
 		  statusType: 'error',
-		  message: `Not found Course with id ${req.params.courseId}.`
+		  message: `Not found enquiry with  ${req.params.selector}.`
 		});
 	      } else {
 		res.status(500).send({
 		  statusType: 'error',
-		  message: "Error retrieving Course with id " + req.params.courseId
+		  message: "Error retrieving enquiry with  " + req.params.selector
 		});
 	      }
-	    } else res.send(data);
+	    } else res.status(200).send({
+		  statusType: 'success',
+		  data: data,
+		});
 	  }); 
 };
 
 // Find a single Customer with a customerId
 exports.findTopics = (req, res) => {
-        Customer.findTopicsById(req.params.courseId, (err, data) => {
+        Enquiries.findTopicsById(req.params.courseId, (err, data) => {
             if (err) {
               if (err.kind === "not_found") {
                 res.status(404).send({
@@ -114,23 +118,30 @@ exports.update = (req, res) => {
 	    });
 	  }
 
-	  Customer.updateById(
-	    req.params.customerId,
-	    new Customer(req.body),
+	  Enquiries.updateById(
+	    req.params.selector,
+	    {
+	    center:req.body.center,
+	    address:req.body.address,
+	    examDateTime:req.body.examDateTime,
+	    },
 	    (err, data) => {
 	      if (err) {
 		if (err.kind === "not_found") {
-		  res.status(404).send({
+		  res.status(200).send({
   		    statusType: 'error',
-		    message: `Not found Customer with id ${req.params.customerId}.`
+		    message: `Not found enquiry with  ${req.params.selector}.`
 		  });
 		} else {
 		  res.status(500).send({
 		    statusType: 'error',
-		    message: "Error updating Customer with id " + req.params.customerId
+		    message: "Error updating enquiry with  " + req.params.selector
 		  });
 		}
-	      } else res.send(data);
+	      } else res.status(200).send({
+		  statusType: 'success',
+		  data: data,
+		});
 	    }
 	  ); 
 };

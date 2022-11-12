@@ -13,7 +13,21 @@
 .skills-text {
   font-size: 15px;
 }
-
+q::before {
+  content: open-quote;
+    float: left;
+    margin-top: -20px;
+    font-size: 39px;
+    margin-left: -20px;
+  
+}
+q::after {
+  content: close-quote;
+    float: right;
+    margin-top: -40px;
+    font-size: 39px;
+    margin-right: 38px;
+}
 .skills-text-div {
   margin-left: 50px;
   font-family: "Google Sans Regular";

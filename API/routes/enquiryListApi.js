@@ -9,10 +9,10 @@ var router = express.Router();
   router.get("/all", enquiries.findAll);
 
   // Retrieve a single Customer with customerId
-  router.get("/customers/:customerId", enquiries.findOne);
+  router.get("/getEnquiryData/:selector", enquiries.findOne);
 
   // Update a Customer with customerId
-  //router.put("/customers/:customerId", customers.update);
+  router.put("/updateCenter/:selector", enquiries.update);
 
   // Delete a Customer with customerId
   //router.delete("/customers/:customerId", customers.delete);

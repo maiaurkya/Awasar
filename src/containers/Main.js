@@ -4,10 +4,12 @@ import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
 import AtseExam from "../pages/education/AtseComponent";
+import Createpdf from "../pages/education/Createpdf";
 import Experience from "../pages/experience/Experience";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import AdmitCard from "../pages/projects/AdmitCard";
 import Form from "../pages/form/form";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
@@ -48,9 +50,9 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/opensource"
+                path="/Createpdf"
                 render={(props) => (
-                  <Opensource {...props} theme={this.props.theme} />
+                  <Createpdf {...props} theme={this.props.theme} />
                 )}
               />
               <Route
@@ -60,9 +62,9 @@ export default class Main extends Component {
                 )}
               />
               <Route
-                path="/splash"
+                path="/admit-card"
                 render={(props) => (
-                  <Splash {...props} theme={this.props.theme} />
+                  <AdmitCard {...props} theme={this.props.theme} />
                 )}
               />
               <Route

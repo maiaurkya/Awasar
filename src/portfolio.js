@@ -109,7 +109,7 @@ const skills = {
       skills: [
         "⚡ Being a Jee Mains + Advanced student is not easy.",
         "⚡ Which is why we're here to help. Our experienced faculty will guide you on your way to clearing the exams and passing the board.",
-        "⚡ Join us for a one-time, three-month or annual coaching session today.",
+        "⚡ Join us for personal mentorship and scientifically designed study materials.",
       ],
       softwareSkills: [
         {
@@ -267,8 +267,8 @@ const degrees = {
       bodyColor: "#a93217",
       titleColor: "#fff",
       descriptions: [
-        "⚡ AWASAR is aPatna based non-profit organisation to provide free education, boarding and lodging to economically weak and talented students through its AWASAR Program.",
-        "⚡ AWASAR belives in reaching oot to learners accross the country.",
+        "⚡ AWASAR is a Patna based non-profit organisation to provide free education, boarding and lodging to economically weak and talented students through its AWASAR Program.",
+        "⚡ AWASAR belives in reaching out to learners accross the country.",
         "⚡ With the vision of delivering quality academics in far flungareas, we have designed different models to reach out to learns.",
       ],
       website_link: "#/form",
@@ -320,6 +320,7 @@ const degrees = {
       descriptions: [
         "⚡ Last year the exam has been conducted on more than 56 places accross the country.",
         "⚡ ATSE 2023 will be conducted in different shift starting from the end of November 2022.",
+        "⚡ Stage-2 and interview will be held only in Patna, Bihar.",
       ],
       website_link: "#/form",
     },
@@ -368,6 +369,7 @@ const degrees = {
       }
       ],
       website_link: "#/form",
+      past_year_paper_link: "ATSE-2022",
     },
     {
       title: "Application Procedure for ATSE 2023",
@@ -381,7 +383,7 @@ const degrees = {
       bodyColor: "#a93217",
       titleColor: "#fff",
       descriptions: [
-        "⚡ Online Mode: Aspirants can below right corner button 'Apply for ATSE - 2023' for online application.",
+        "⚡ Online Mode: Aspirants can click below right corner button 'Apply for ATSE - 2023' for online application.",
         "⚡ Offline Mode: One can visit nearest SIS Office for offline application for the exam.",
         "⚡ Contact: You can make a call at 7763071141, 7903218495 for more details and assistance.",
         "⚡ Head office: AWASAR Building, Near Zakir Hussain Sansthan, Officer's Flat, hartali More, Bailey Road Patna-800001.",
@@ -402,16 +404,16 @@ const degrees = {
       descriptions: [],
       stageDetails: [
       {
-      	stage: "Date of Prelis (Satge-1)",
+      	stage: "Date of Prelims (Satge-1)",
       	date1:" 20th November 2022",
       	date2:" 27th November 2022",
-      	date3:" 04th Deceber 2022",
+      	date3:" 04th December 2022",
       	date4:" 11th December 2022",
       	date5:" 18th December 2022",
       	date6:" 25th December 2022",
       },
       {
-      	stage: "Date of Prelis (Satge-2)",
+      	stage: "Date of Prelmis (Satge-2)",
       	date1:" To Be Decided After Stage-1",
       }
       ],
@@ -462,9 +464,9 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "ADMIT CARD",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "Prepare for the future with the help of Awasar50. The exam date is approaching you, select your exam center to get your Admit Card.",
   avatar_image_path: "projects_image.svg",
 };
 

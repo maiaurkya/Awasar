@@ -1,0 +1,47 @@
+.txt-center {
+    text-align: center;
+}
+.border- {
+     border-radius: 5px;
+}
+.padding {
+    padding: 15px;
+}
+.mar-bot {
+    margin-bottom: 15px;
+}
+#divToPrint.hide, .hide{
+	display: none;
+}
+.admit-card {
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.headerBlock p{
+	font-size: 10px;
+}
+.headerBlock .logo{
+margin-top: -15px;
+}
+.BoxA h5, .BoxA p {
+    margin: 0;
+}
+.admit-button:hover{
+	background-color: #ffffff !important;
+    	color: rgb(153, 64, 31) !important; 
+    	transition: ease-in 0.3s;
+}
+h5 {
+    text-transform: uppercase;
+}
+table img {
+    width: 100%;
+    margin: 0 auto;
+}
+.container, #divToPrint {
+    background-color: #FFF0EA;
+}
+#divToPrint{
+display: inline-block;
+}

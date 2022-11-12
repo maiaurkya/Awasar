@@ -20,6 +20,7 @@ export default function Button({
   href,
   newTab,
   theme,
+  clickEvent,
   icon = false,
 }) {
   console.log(icon);
@@ -34,6 +35,7 @@ export default function Button({
           backgroundColor: theme.text,
           border: `solid 1px ${theme.text}`,
         }}
+        onClick={clickEvent}
         onMouseEnter={(event) => onMouseEnter(event, theme.text, theme.body)}
         onMouseOut={(event) => onMouseOut(event, theme.body, theme.text)}
       >

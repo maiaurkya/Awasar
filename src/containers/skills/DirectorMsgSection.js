@@ -50,6 +50,8 @@ class DirectorMsgSection extends Component {
                   </Fade>
                   <Fade right duration={2000}>
                     <div>
+                      {skill.fileName === 'director' ?
+                       <q>
                       {skill.skills.map((skillSentence) => {
                         return (
                           <p
@@ -60,6 +62,19 @@ class DirectorMsgSection extends Component {
                           </p>
                         );
                       })}
+                     </q> 
+                     : 
+                     skill.skills.map((skillSentence) => {
+                        return (
+                          <p
+                            className="subTitle skills-text"
+                            style={{ color: theme.secondaryText }}
+                          >
+                            {skillSentence}
+                          </p>
+                        );
+                      })
+                      }
                     </div>
                   </Fade>
                 </div>

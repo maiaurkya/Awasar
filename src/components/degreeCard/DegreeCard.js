@@ -146,13 +146,14 @@ class DegreeCard extends Component {
                     <label>Time Durations</label> - {details.duration}
                   </p>
                   <p className="content-list" style={{ color: theme.text }}>
-                    <label>Time Durations</label> - {details.duration}
+                    <label>Paper Pattern</label> - {details.Pattern}
                   </p>
                   </div>
                 );
               })
               }
               {degree.website_link && (
+              <div>
                 <a
                   href={degree.website_link}
                   target="_blank"
@@ -167,6 +168,24 @@ class DegreeCard extends Component {
                     </p>
                   </div>
                 </a>
+                {
+              degree.past_year_paper_link && 
+              <a
+                  href={require(`../../assests/past-papers/${degree.past_year_paper_link}.pdf`)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="visit-btn"
+                    style={{ backgroundColor: degree.bodyColor }}
+                  >
+                    <p className="btn" style={{ color: degree.titleColor }}>
+                      Past Year Paper for ATSE - 2022
+                    </p>
+                  </div>
+                </a>
+                }
+                </div>
               )}
             </div>
           </div>
