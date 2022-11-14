@@ -272,6 +272,7 @@ const degrees = {
         "⚡ With the vision of delivering quality academics in far flungareas, we have designed different models to reach out to learns.",
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "About AWASAR-50",
@@ -289,6 +290,7 @@ const degrees = {
         "⚡ In this program selected students are being provided the Free Tution, Free Boarding and lodging.",
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "Selection Procedure",
@@ -305,6 +307,7 @@ const degrees = {
         "⚡ Each Year we conduct ATSE - AWASAR TALENT SEARCH EXAMINATION (A three-stage exam i.e, Prelims, Mains and Interview) to select students in our AWASAR-50 Program.",
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "Venue of the ATSE-2023",
@@ -323,6 +326,7 @@ const degrees = {
         "⚡ Stage-2 and interview will be held only in Patna, Bihar.",
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "Eligibility to participate in ATSE 2023",
@@ -339,6 +343,7 @@ const degrees = {
         "⚡ Any student who wants to became an engineer from institute of national importnce (IITs, NITs etc) and currently studying in class 10th can apply for ATSE-2023.",
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "Pattern of the ATSE-2023 Exam",
@@ -369,6 +374,7 @@ const degrees = {
       }
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
       past_year_paper_link: "ATSE-2022",
     },
     {
@@ -389,6 +395,7 @@ const degrees = {
         "⚡ Head office: AWASAR Building, Near Zakir Hussain Sansthan, Officer's Flat, hartali More, Bailey Road Patna-800001.",
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "Exam Dates of ATSE - 2023",
@@ -418,6 +425,7 @@ const degrees = {
       }
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     {
       title: "FAQs about your doubts",
@@ -439,6 +447,7 @@ const degrees = {
       }
       ],
       website_link: "#/form",
+      admit_card_link: "#/admit-card",
     },
     
   ],

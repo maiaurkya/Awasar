@@ -56,7 +56,14 @@ function OnLineForm(props) {
 			};
 			fetch(`${baseUrl}enquiry/create`, requestOptions)
 				.then(response => response.json())
-				.then(data => setApiRes(data));
+				.then(data => setApiRes(data))
+				.catch((error) => {
+		    			console.log('error: ' + error);
+		    			let errors = {};
+		    			errors.api="Check your internet!, if it is working fine, try after sometimes.";
+		    			setValidation({errors});
+		    
+		  });
 		}
     }
 	
@@ -507,9 +514,10 @@ function OnLineForm(props) {
                         onChange={inputsHandler}
                         className={formErrorValues.news_letter ? 'is-invalid': ''}
                         />
-                        <label className={formErrorValues.news_letter ? 'invalid-feedback': 'hide'}>{formErrorValues.news_letter}</label>
+                        <label className={formErrorValues.api ? 'invalid-feedback': 'hide'}style={{left:'-25px',width:'310px'}}>{formErrorValues.api}</label>
                       </MDBCol>
                     </MDBRow>
+                    
                   <MDBBtn color="light" size="lg" onClick={submitButton}>
                       Register
                   </MDBBtn>

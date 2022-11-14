@@ -185,6 +185,23 @@ class DegreeCard extends Component {
                   </div>
                 </a>
                 }
+                {
+              degree.admit_card_link && 
+              <a
+                  href={degree.admit_card_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div
+                    className="visit-btn"
+                    style={{ backgroundColor: degree.bodyColor }}
+                  >
+                    <p className="btn" style={{ color: degree.titleColor }}>
+                      Admit Card For ATSE-2023
+                    </p>
+                  </div>
+                </a>
+                }
                 </div>
               )}
             </div>

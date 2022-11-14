@@ -108,6 +108,18 @@ class Header extends Component {
                   ATSE-2023
                 </NavLink>
               </li>
+              <li>
+                <NavLink
+                  to="/admit-card"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Admit Card
+                </NavLink>
+              </li>
               	{/*<li>
                 <NavLink
                   to="/form"

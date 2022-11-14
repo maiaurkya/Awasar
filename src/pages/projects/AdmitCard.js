@@ -85,7 +85,13 @@ setVisibal = (event) => {
 			if(data.statusType !== 'error'){
 				this.setState({admitStatus: data.data.center ? true : this.state.center ? true : false, buttonText:data.data.center ? 'Download Your Admit Card' : this.state.center ? 'Download Your Admit Card' :'Get Your Admit Card', centerRequired: data.data.center ? false : true});
 			}
-		});
+		})
+		.catch((error) => {
+		    console.log('error: ' + error);
+		    errors.api="Check your internet connection!, if it working fine try after sometimes."
+		    this.setState({errorValues: errors});
+		    
+		  });
 		
 		
 	}else{
@@ -109,7 +115,13 @@ setVisibal = (event) => {
 	.then(response => response.json())
 	.then(data => {console.log(data)
 		this.setState({buttonText:'Get Your Admit Card', admitStatus: false, centerRequired: false});
-	});
+	}).catch((error) => {
+		    console.log('error: ' + error);
+		    let errors = {};
+		    errors.api="Check your internet!, if it is working fine, try after sometimes.";
+		    this.setState({errorValues: errors});
+		    
+		  });
 	}else{
 		this.setState({buttonText:'Get Your Admit Card', admitStatus: false, centerRequired: false});
 	}
@@ -125,7 +137,7 @@ setVisibal = (event) => {
       let img = new Image();
       img.src = canvas.toDataURL('image/png');
       img.onload = function () {
-        let pdf = new jsPDF('l', 'px', 'legal', true);
+        let pdf = new jsPDF('p', 'px', 'A4', true);
         pdf.addImage(img, 0, 0, pdf.internal.pageSize.width, pdf.internal.pageSize.height);
         pdf.save(`hallTicket-${enrollmentPrefix}${parseInt(enrollmentStatic)+parseInt(data.res.data.id)}.pdf`);
         setTimeout(()=>{
@@ -192,6 +204,7 @@ setVisibal = (event) => {
 				    <label className={this.state.errorValues.center ? 'invalid-feedback': 'hide'}>{this.state.errorValues.center}</label>
 		      	</Form.Group>
 		  	}
+		  	<div style={{position: "relative"}}>
 			<button className="main-button admit-button" onClick={(e)=>!this.state.admitStatus ? this.setVisibal(e) : this.asyncPDF(e, this.state)} style={{
 			  color: theme.body,
 			  backgroundColor: theme.text,
@@ -199,6 +212,8 @@ setVisibal = (event) => {
 			}}>
 			{this.state.buttonText} 
 			</button>
+			<label className={this.state.errorValues.api ? 'invalid-feedback': 'hide'} style={{top:'-6px',textAlign:'left',width:'310px',left:'-30px',height:'10px'}}>{this.state.errorValues.api}</label>
+			</div>
 	 	</form>
         </div>
        
