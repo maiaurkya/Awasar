@@ -49,7 +49,7 @@ return(
 						  </tbody>
 						</table>
 					</div>
-					<div className="col-sm-2" style={{margin:"0px", maxWidth:"100px"}}>
+					<div className="col-sm-2 passport-size" style={{margin:"0px", maxWidth:"100px"}}>
 						<table className="table table-bordered" style={{color: "#fff",height:'90%'}}>
 						  <tbody>
 							<tr>
@@ -86,7 +86,7 @@ return(
 				<div className="row">
 					<div className="col-sm-12">
 						<h5>EXAMINATION VENUE</h5>
-						<p>{data && data.center ? data.centerAddress 
+						<p className="venue-address">{data && data.center ? data.centerAddress 
 						: center ? `${center.address}` : ''}</p>
 					</div>
 				</div>

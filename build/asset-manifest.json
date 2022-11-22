@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.ec095cc8.chunk.css",
-    "main.js": "./static/js/main.0b871856.chunk.js",
-    "main.js.map": "./static/js/main.0b871856.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.6cb6eeb0.js",
-    "runtime-main.js.map": "./static/js/runtime-main.6cb6eeb0.js.map",
+    "main.css": "./static/css/main.31363b4d.chunk.css",
+    "main.js": "./static/js/main.43e7ac15.chunk.js",
+    "main.js.map": "./static/js/main.43e7ac15.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.a57bb9f1.js",
+    "runtime-main.js.map": "./static/js/runtime-main.a57bb9f1.js.map",
     "static/css/2.de424728.chunk.css": "./static/css/2.de424728.chunk.css",
-    "static/js/2.6853f686.chunk.js": "./static/js/2.6853f686.chunk.js",
-    "static/js/2.6853f686.chunk.js.map": "./static/js/2.6853f686.chunk.js.map",
-    "static/js/3.a3818126.chunk.js": "./static/js/3.a3818126.chunk.js",
-    "static/js/3.a3818126.chunk.js.map": "./static/js/3.a3818126.chunk.js.map",
-    "static/js/4.2528dd34.chunk.js": "./static/js/4.2528dd34.chunk.js",
-    "static/js/4.2528dd34.chunk.js.map": "./static/js/4.2528dd34.chunk.js.map",
+    "static/js/2.b8f2154c.chunk.js": "./static/js/2.b8f2154c.chunk.js",
+    "static/js/2.b8f2154c.chunk.js.map": "./static/js/2.b8f2154c.chunk.js.map",
+    "static/js/3.97debe0e.chunk.js": "./static/js/3.97debe0e.chunk.js",
+    "static/js/3.97debe0e.chunk.js.map": "./static/js/3.97debe0e.chunk.js.map",
+    "static/js/4.41b400bf.chunk.js": "./static/js/4.41b400bf.chunk.js",
+    "static/js/4.41b400bf.chunk.js.map": "./static/js/4.41b400bf.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b60c234da86776205df223809ee63cc2.js": "./precache-manifest.b60c234da86776205df223809ee63cc2.js",
+    "precache-manifest.40a81282c573b8710fec706ce2aff81d.js": "./precache-manifest.40a81282c573b8710fec706ce2aff81d.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.de424728.chunk.css.map": "./static/css/2.de424728.chunk.css.map",
-    "static/css/main.ec095cc8.chunk.css.map": "./static/css/main.ec095cc8.chunk.css.map",
+    "static/css/main.31363b4d.chunk.css.map": "./static/css/main.31363b4d.chunk.css.map",
     "static/media/ATSE-2022.pdf": "./static/media/ATSE-2022.4b117855.pdf",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/address_image.svg": "./static/media/address_image.f29dcb7b.svg",
@@ -60,6 +60,7 @@
     "static/media/projects_image.svg": "./static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "./static/media/pwa.71408db7.png",
     "static/media/scholarship.svg": "./static/media/scholarship.63f9388e.svg",
+    "static/media/signature.png": "./static/media/signature.f649c6ef.png",
     "static/media/slider1.svg": "./static/media/slider1.2c8611fc.svg",
     "static/media/stanford_logo.png": "./static/media/stanford_logo.2c497738.png",
     "static/media/talksCardBack.svg": "./static/media/talksCardBack.6ac91b16.svg",
@@ -67,10 +68,10 @@
     "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6cb6eeb0.js",
+    "static/js/runtime-main.a57bb9f1.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.6853f686.chunk.js",
-    "static/css/main.ec095cc8.chunk.css",
-    "static/js/main.0b871856.chunk.js"
+    "static/js/2.b8f2154c.chunk.js",
+    "static/css/main.31363b4d.chunk.css",
+    "static/js/main.43e7ac15.chunk.js"
   ]
 }

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink, Link } from "react-router-dom";
 import "./DegreeCard.css";
 import { Fade, Flip } from "react-reveal";
 
@@ -154,11 +155,10 @@ class DegreeCard extends Component {
               }
               {degree.website_link && (
               <div>
-                <a
-                  href={degree.website_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <NavLink
+	          to={degree.website_link}
+	          tag={Link}
+	        >
                   <div
                     className="visit-btn"
                     style={{ backgroundColor: degree.bodyColor }}
@@ -167,7 +167,7 @@ class DegreeCard extends Component {
                       Apply for ATSE - 2023
                     </p>
                   </div>
-                </a>
+                </NavLink>
                 {
               degree.past_year_paper_link && 
               <a
@@ -187,11 +187,10 @@ class DegreeCard extends Component {
                 }
                 {
               degree.admit_card_link && 
-              <a
-                  href={degree.admit_card_link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <NavLink
+	          to={degree.admit_card_link}
+	          tag={Link}
+	        >
                   <div
                     className="visit-btn"
                     style={{ backgroundColor: degree.bodyColor }}
@@ -200,7 +199,7 @@ class DegreeCard extends Component {
                       Admit Card For ATSE-2023
                     </p>
                   </div>
-                </a>
+                </NavLink>
                 }
                 </div>
               )}

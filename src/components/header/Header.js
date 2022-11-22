@@ -29,6 +29,7 @@ class Header extends Component {
                 className="logo-name"
                 src={greeting.logo_name}
                 style={{ color: theme.text }}
+                alt="AWASAR50"
               />
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
@@ -62,7 +63,7 @@ class Header extends Component {
               </li>*/}
               <li>
                 <NavLink
-                  to="/experience"
+                  to="/about-us"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}

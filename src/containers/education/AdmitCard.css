@@ -76,3 +76,11 @@ table img {
 #divToPrint{
 display: inline-block;
 }
+p.venue-address {
+    font-size: 11px;
+}
+@media (max-width: 768px) {
+  .passport-size {
+    margin: 0px auto !important;
+  }
+}

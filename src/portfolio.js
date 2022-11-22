@@ -271,8 +271,8 @@ const degrees = {
         "⚡ AWASAR belives in reaching out to learners accross the country.",
         "⚡ With the vision of delivering quality academics in far flungareas, we have designed different models to reach out to learns.",
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "About AWASAR-50",
@@ -289,8 +289,8 @@ const degrees = {
         "⚡ AWASAR-50 is a residential mentoring program for JEE Main / Advanced examination to the selected students.",
         "⚡ In this program selected students are being provided the Free Tution, Free Boarding and lodging.",
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "Selection Procedure",
@@ -306,8 +306,8 @@ const degrees = {
       descriptions: [
         "⚡ Each Year we conduct ATSE - AWASAR TALENT SEARCH EXAMINATION (A three-stage exam i.e, Prelims, Mains and Interview) to select students in our AWASAR-50 Program.",
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "Venue of the ATSE-2023",
@@ -325,8 +325,8 @@ const degrees = {
         "⚡ ATSE 2023 will be conducted in different shift starting from the end of November 2022.",
         "⚡ Stage-2 and interview will be held only in Patna, Bihar.",
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "Eligibility to participate in ATSE 2023",
@@ -342,8 +342,8 @@ const degrees = {
       descriptions: [
         "⚡ Any student who wants to became an engineer from institute of national importnce (IITs, NITs etc) and currently studying in class 10th can apply for ATSE-2023.",
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "Pattern of the ATSE-2023 Exam",
@@ -373,8 +373,8 @@ const degrees = {
       	Pattern: "60 Question from Mathematics, 20Mat, 20 Science",
       }
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
       past_year_paper_link: "ATSE-2022",
     },
     {
@@ -394,8 +394,8 @@ const degrees = {
         "⚡ Contact: You can make a call at 7763071141, 7903218495 for more details and assistance.",
         "⚡ Head office: AWASAR Building, Near Zakir Hussain Sansthan, Officer's Flat, hartali More, Bailey Road Patna-800001.",
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "Exam Dates of ATSE - 2023",
@@ -424,8 +424,8 @@ const degrees = {
       	date1:" To Be Decided After Stage-1",
       }
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     {
       title: "FAQs about your doubts",
@@ -446,8 +446,8 @@ const degrees = {
       	notSelected:" All the students who will not be selected in our AWASAR-50 batch will be offered our other batches where they will be provided scholarship on their tution fee on the basis of their performance in the different stages of ATSE - 2023",
       }
       ],
-      website_link: "#/form",
-      admit_card_link: "#/admit-card",
+      website_link: "/form",
+      admit_card_link: "/admit-card",
     },
     
   ],

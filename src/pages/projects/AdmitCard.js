@@ -184,7 +184,7 @@ setVisibal = (event) => {
               this.state.selector !== '' ? " active" : ""
             } onChange={this.changeHandler} value={this.selector} />
 				<Form.Label>Mobile Number / Email</Form.Label>
-				<label className={this.state.errorValues.selector || this.state.resStatus === 'error' ? 'invalid-feedback': 'hide'}>{this.state.errorValues.selector ? this.state.errorValues.selector : this.state.resStatus === 'error' ? `No Record found please try with different Mobile Nmuber / Email is required.` : '' }</label>
+				<label className={this.state.errorValues.selector || this.state.resStatus === 'error' ? 'invalid-feedback': 'hide'}>{this.state.errorValues.selector ? this.state.errorValues.selector : this.state.resStatus === 'error' ? `No Record found please try with different Mobile Nmuber / Email.` : '' }</label>
 				<div className="form-notch">
 					<div className="form-notch-leading"></div>
 					<div className="form-notch-middle" style={{width: "140px"}}>
