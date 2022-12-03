@@ -38,11 +38,29 @@ constructor(props) {
     resStatus:'',
     errorValues:'',
     buttonText:'Get Your Admit Card',
-    centerRequired:false
+    centerRequired:false,
+    windowWidth:window.innerWidth, 
+    height: window.innerHeight, 
+      width: window.innerWidth
     };
     this.searchInput = React.createRef();
+    this.handleResize = this.handleResize.bind(this);
   }
-  
+  componentDidMount() {
+      window.addEventListener("resize", this.handleResize);
+    }
+    componentWillUnmount() {
+      window.addEventListener("resize", null);
+    }
+    handleResize(WindowSize, event) {
+        this.setState({windowWidth: window.innerWidth,
+        admitStatus: false,
+        loading: false,
+        buttonText:'Get Your Admit Card',
+    	centerRequired:false,
+    	errorValues: ''
+    	});
+    }
   onChangeCenter = selectedOption => {
     this.setState({ center: selectedOption });
     console.log(`Option selected:`, selectedOption);
@@ -55,7 +73,9 @@ constructor(props) {
 setVisibal = (event) => {
 	event.preventDefault();
 	let errors = {};
-	
+	if( this.state.windowWidth <= 1000  ){
+		errors.api="Please use a desktop browser to download the Admit card";
+	}else{
 	if (!this.state.selector || !this.state.selector.trim()) {
 	  	errors.selector = "Mobile Nmuber / Email is required";
 	} 
@@ -66,6 +86,7 @@ setVisibal = (event) => {
 		errors.center = "Please select your Exam Center";
 	}else{
 		delete errors.center;
+	}
 	}
 	const requestOptions = {
 		method: 'GET',
@@ -131,6 +152,7 @@ setVisibal = (event) => {
   printDocument = (data) =>{
   return new Promise(resolve => {
     const input = document.getElementById('divToPrint');
+    document.getElementById('divToPrint').style.width = '1140px';
     html2canvas(input, {
                 quality: 1,
                 scale: 5}).then(function(canvas) {

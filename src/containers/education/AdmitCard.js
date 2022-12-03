@@ -4,7 +4,6 @@ import { Fade } from "react-reveal";
 import {enquiryFormSucessMsg, status, enrollmentPrefix, enrollmentStatic} from '../../constant';
 function AdmitCard(props) {
 const {contact, logo, data, center} = props;
-console.log(data);
 return(    
 <section>
 	<div className="container">
