@@ -7,6 +7,9 @@ var router = express.Router();
 
   // Retrieve all Customers
   router.get("/all", enquiries.findAll);
+  
+  // Retrieve admin details
+  router.post("/authUser", enquiries.create);
 
   // Retrieve a single Customer with customerId
   router.get("/getEnquiryData/:selector", enquiries.findOne);

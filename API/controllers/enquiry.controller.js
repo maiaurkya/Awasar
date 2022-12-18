@@ -90,6 +90,31 @@ exports.findOne = (req, res) => {
 	  }); 
 };
 
+// Find a Admin with a userId
+exports.findAdmin = (req, res) => {
+	if (!req.body) {
+	    res.status(400).send({
+ 	      statusType: 'error',
+	      message: "Content can not be empty!"
+	    });
+	  }
+        Enquiries.findAdminByUserId(req.body.userid, (err, data) => {
+            if (err) {
+              if (err.kind === "not_found") {
+                res.status(404).send({
+                  statusType: 'error',
+                  message: `Not found Admin with userid ${req.params.userId}.`
+                });
+              } else {
+                res.status(500).send({
+                  statusType: 'error',
+                  message: "Error retrieving Admin with userid " + req.params.userId
+                });
+              }
+            } else res.send(data);
+          });
+};
+
 // Find a single Customer with a customerId
 exports.findTopics = (req, res) => {
         Enquiries.findTopicsById(req.params.courseId, (err, data) => {

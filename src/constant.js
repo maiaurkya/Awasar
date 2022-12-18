@@ -31,7 +31,7 @@ const cityListWithLabel = [
         "label": "Patna",
         "state": "Bihar",
         "address": "AWASAR BUILING NEARZAKIR HUSSAIN SANSTHANOFFICERS FLAT HARTALI MORE BAILEY ROAD PATNA 800001",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "2",
@@ -39,7 +39,7 @@ const cityListWithLabel = [
         "label": "KANPUR HARSHNAGAR ",
         "state": "Uttar Pradesh",
         "address": "SIS BRANCH OFFICE,749,LAKHANPUR HOUSING SOCIETY, KANPUR",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "3",
@@ -47,7 +47,7 @@ const cityListWithLabel = [
         "label": "Lucknow Chinhat",
         "state": "Uttar Pradesh",
         "address": "9th Floor, Eldeco Elegante, Vibhuti Khand Gomti Nagar Lucknow-226010 UP",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "4",
@@ -55,7 +55,7 @@ const cityListWithLabel = [
         "label": "VARANASI",
         "state": "Uttar Pradesh",
         "address": "SIS BRANCH S 25/20 A-1 FIRST FLOOR UNION BANK BUILDING,SINDHOURA ROAD, BHOJUBEER, VARANASI-221002",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "5",
@@ -63,7 +63,7 @@ const cityListWithLabel = [
         "label": "Lucknow Mahangar",
         "state": "Uttar Pradesh",
         "address": "26 Chandralok 2nd Floor,Near Kapoorthala Aliganj- Lucknow -226010",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "6",
@@ -71,7 +71,7 @@ const cityListWithLabel = [
         "label": "Gorakhpur",
         "state": "Uttar Pradesh",
         "address": "Ward No-56 Radhey  Bhawan Daudpur,Indranagar- Gorakhpur -273209",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "7",
@@ -79,7 +79,7 @@ const cityListWithLabel = [
         "label": "BAREILLY",
         "state": "Uttar Pradesh",
         "address": "BAREILLY BRANCG",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "8",
@@ -87,7 +87,7 @@ const cityListWithLabel = [
         "label": "KANPUR PANKI",
         "state": "Uttar Pradesh",
         "address": "SIS BRANCH OFFICE,40 E- BLOCK NEA BMC HOSPITAL PANKI KANPUR-208020 ",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "9",
@@ -95,7 +95,7 @@ const cityListWithLabel = [
         "label": "Ranchi Lalpur BO",
         "state": "Jharkhand",
         "address": "Swarnrekha Public School, Khelgaon Tatisilwai Road, Hari Nagar, Tatisilwai, Jharkhand, Ranchi, Jharkhand-835103.",
-    	"examDateTime": "04th Dec 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "10",
@@ -103,7 +103,7 @@ const cityListWithLabel = [
         "label": "Jamshedpur BO",
         "state": "Jharkhand",
         "address": "SIS JAMSHEDPUR BRANCH, MARWAH MANSION, OUTER CIRCLE ROAD, NEAR:KANTILAL(MEDICA) HOSPITAL, BISTUPUR, LAND MARK:BESIDE GST OFFICE, JAMSHEDPUR-831001, JHARKHAND",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "11",
@@ -111,7 +111,7 @@ const cityListWithLabel = [
         "label": "Hazaribagh BO",
         "state": "Jharkhand",
         "address": "Hazaribagh branch office, SIS Limited,Old Excise Check Post Cooperative Colony More, NH-33 Ranchi Patna Road, Hazaribagh - 825 301, Jharkhand, INDIA",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "12",
@@ -119,7 +119,7 @@ const cityListWithLabel = [
         "label": "Dhanbad",
         "state": "Jharkhand",
         "address": "D A V KUSUNDA",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "13",
@@ -127,7 +127,7 @@ const cityListWithLabel = [
         "label": "Muzaffarpur",
         "state": "Bihar",
         "address": "SIS Ltd, 3rd floor, ABC tower Brahmaputra Main Road, Muzaffarpur-842003",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "14",
@@ -135,7 +135,7 @@ const cityListWithLabel = [
         "label": "Andheri",
         "state": "Mumbai",
         "address": "1st Floor, G H Kantilal & Co., Near Sakinaka, Marol Station, Andheri Kurla Road, Andheri East, Mumbai - 400072",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "15",
@@ -143,7 +143,7 @@ const cityListWithLabel = [
         "label": "Jaipur Malviya Nagar",
         "state": "Rajasthan",
         "address": "SIS Limited, D-1 1st Floor, A-1 Nawal Tower, Near Jawahar Circle, JLN Marg, Malviya Nagar, Jaipur-302017",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "16",
@@ -151,7 +151,7 @@ const cityListWithLabel = [
         "label": "PUNE RO",
         "state": "Maharastra",
         "address": "SIS LIMITED, PUNE RO, JEWEL SQUARE, ZERO FLOOR, KOREGAON PARK, BESIDE TO TAJ BLUD DIAMOND HOTEL.",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "17",
@@ -159,7 +159,7 @@ const cityListWithLabel = [
         "label": "BOKARO",
         "state": "JHARKHAND",
         "address": "Plot no 392/A CO-OPERATIVE COLONY,B.S.CITY BOKARO",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "18",
@@ -167,7 +167,7 @@ const cityListWithLabel = [
         "label": "WEST BENGAL",
         "state": "WEST BENGAL",
         "address": "SATYAM TOWER, 6TH FLOOR, NAZRUL ISLAM SARANI, VIP ROAD, NEAR B P PODDAR ENGINEERING COLLEGE, KOLKATA- 700052",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "19",
@@ -175,7 +175,7 @@ const cityListWithLabel = [
         "label": "REWARI",
         "state": "Haryana",
         "address": "Rewari Branch, NH-8,Bestech City, Block-PS, Plot No.-4,2nd Floor, Tehsil- Dharuhera, District:- Rewari, Haryana-123106",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "20",
@@ -183,7 +183,7 @@ const cityListWithLabel = [
         "label": "DHARBHANGA",
         "state": "BIHAR",
         "address": "DON BOSCO PUBLIC SCHOOL BESIDES OF INDRAPRASTH SCHOOL MASZID CHOWK MUZAFFARPUR - 842002",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "22",
@@ -191,7 +191,7 @@ const cityListWithLabel = [
         "label": "SAMASTIPUR",
         "state": "BIHAR",
         "address": "MY YOUTH ACADEMY MUSHARIGHARARI SAMASTIPUR",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "23",
@@ -199,7 +199,7 @@ const cityListWithLabel = [
         "label": "Giridih",
         "state": "JHARKHAND",
         "address": "CCL DAV BANIYADIH GIRIDIH",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "24",
@@ -207,7 +207,7 @@ const cityListWithLabel = [
         "label": "VARANASI",
         "state": "Uttar Pradesh",
         "address": "SIS BRANCH 25/20 A1 FIRST FLOOR UNION BANK BUILING SINDHOURA ROAD BHOJUbeer VARANASI -221002 ",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "25",
@@ -215,7 +215,7 @@ const cityListWithLabel = [
         "label": "Ara",
         "state": "Bihar",
         "address": "Near Bajaj Showroom Katira Arrah",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "27",
@@ -223,7 +223,7 @@ const cityListWithLabel = [
         "label": "Bikramganj",
         "state": "Bihar",
         "address": "Patel nagar  HIIT JEE Institute bikramganj rohtas - 802212",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "28",
@@ -231,7 +231,7 @@ const cityListWithLabel = [
         "label": "Chhapra",
         "state": "Bihar",
         "address": "High school Kewani- chapara 841311",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "29",
@@ -239,7 +239,7 @@ const cityListWithLabel = [
         "label": "BHAGALPUR",
         "state": "Bihar",
         "address": "SIS BRANCH OFFICE RADHARANI SINHA ROAD AKASHWANI CHOWK ADAMPUR BHAGALPUR BIHAR- 812001",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "30",
@@ -247,7 +247,7 @@ const cityListWithLabel = [
         "label": "NALANDA",
         "state": "Bihar",
         "address": "aim tutorial islampur Nalanda",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "30",
@@ -255,7 +255,7 @@ const cityListWithLabel = [
         "label": "Moradabad",
         "state": "Uttar Pradesh",
         "address": "SIS India Ltd 2nd Floor, Saqlaini Tower Near Amar Ujala Press Shyamganj, Bareilly 243001 Uttar Pradesh",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "30",
@@ -263,7 +263,7 @@ const cityListWithLabel = [
         "label": "East champaran",
         "state": "Bihar",
         "address": "Eklavya coaching centre badhubani ghat motihari east champaran 845401 ",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
     {
         "id": "30",
@@ -271,7 +271,7 @@ const cityListWithLabel = [
         "label": "VAISHALI",
         "state": "Bihar",
         "address": "ASHOKA CHEMISTRY CLASSES SARAI NEAR ADARSH HIGH SCHOOL SARAI VAISHALI",
-    	"examDateTime": "04th Nov 2022 at 11AM to 1 PM",
+    	"examDateTime": "25th Dec 2022 at 11AM to 1 PM",
     },
 ];
 const cityList = [

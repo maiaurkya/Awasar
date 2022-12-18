@@ -3,9 +3,13 @@ import { Route, Switch, HashRouter, BrowserRouter } from "react-router-dom";
 import Home from "../pages/home/HomeComponent";
 import Splash from "../pages/splash/Splash";
 import Education from "../pages/education/EducationComponent";
+import Faculty from "../pages/education/FacultyComponent";
+import Organization from "../pages/education/OrganizationComponent";
+import NonTeaching from "../pages/education/NonTeachingComponent";
 import AtseExam from "../pages/education/AtseComponent";
 import Createpdf from "../pages/education/Createpdf";
 import Experience from "../pages/experience/Experience";
+import Carrier from "../pages/experience/CarrierComponent";
 import Opensource from "../pages/opensource/Opensource";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
@@ -38,6 +42,13 @@ export default class Main extends Component {
                 )}
               />
               <Route
+                path="/career"
+                exact
+                render={(props) => (
+                  <Carrier {...props} theme={this.props.theme} />
+                )}
+              />
+              <Route
                 path="/atse"
                 render={(props) => (
                   <AtseExam {...props} theme={this.props.theme} />
@@ -59,6 +70,19 @@ export default class Main extends Component {
                 path="/form"
                 render={(props) => <Form {...props} theme={this.props.theme} />}
               />
+              <Route
+                path="/faculties"
+                render={(props) => <Faculty {...props} theme={this.props.theme} />}
+              />
+              <Route
+                path="/administration"
+                render={(props) => <Organization {...props} theme={this.props.theme} />}
+              />
+              <Route
+                path="/non-teachig"
+                render={(props) => <NonTeaching {...props} theme={this.props.theme} />}
+              />
+              
               <Route
                 path="*"
                 render={(props) => (

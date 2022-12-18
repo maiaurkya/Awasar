@@ -459,6 +459,100 @@ const certifications = {
   ],
 };
 
+const faculties = {
+  faculties: [
+    {
+      title: "Mr. R. K. Srivastava (Mathematics Guru)",
+      subtitle: "Director",
+      logo_path: "rk_shrivastava.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Director, Awasar",
+      color_code: "#00000099",
+    },
+    {
+      title: "Mr. Vivek Maddheshia",
+      subtitle: "HOD Physics",
+      logo_path: "VivekMaddheshia.jpeg",
+      certificate_link:
+        "",
+      alt_name: "HOD Physics, AWASAR",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Dr. Ravi Kumar Singh",
+      subtitle: "Chemistry Faculty",
+      logo_path: "dr.ravi_singh.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Chemistry Faculty, AWASAR",
+      color_code: "#1F70C199",
+    },
+  ],
+};
+const organization = {
+  organization: [
+    {
+      title: "Sri R.K. Sinha",
+      subtitle: "Chairman, AWASAR Trust",
+      logo_path: "sri_r.k.sinha.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Chairman, AWASAR Trust",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Mr. R. K. Srivastava (Mathematics Guru)",
+      subtitle: "Director",
+      logo_path: "rk_shrivastava.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Director, Awasar",
+      color_code: "#00000099",
+    },
+    {
+      title: "Prof. K.C. Sinha",
+      subtitle: "VC- Nalanda Open University, Mentor- AWASAR Trust",
+      logo_path: "k.c.sinha.jpeg",
+      certificate_link:
+        "",
+      alt_name: "VC- Nalanda Open University, Mentor- AWASAR Trust",
+      color_code: "#0C9D5899",
+    },
+    {
+      title: "Mr. Gautam Srivastava",
+      subtitle: "Branch Manager",
+      logo_path: "gautam_shrivastava.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Branch Manager, AWASAR",
+      color_code: "#1F70C199",
+    },
+  ],
+};
+const non_teaching = {
+  non_teaching: [
+    {
+      title: "Mr. Deepak Sinha",
+      subtitle: "Office Assistant",
+      logo_path: "deepak_sinha.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Office Assistant, AWASAR",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Mr. Rajiv Ranjan Prasad",
+      subtitle: "Warden",
+      logo_path: "rajiv_ranjan.jpeg",
+      certificate_link:
+        "",
+      alt_name: "Warden, AWASAR",
+      color_code: "#1F70C199",
+    },
+  ],
+};
+
 // Experience Page
 const experience = {
   title: "About Us",
@@ -469,6 +563,72 @@ const experience = {
   sections: [
     
       ],
+};
+const carrier = {
+  title: "Career",
+  subtitle: "The best way to predict the future is to create it. ",
+  description:"Our comprehensive list of open positions provide you with a wide range of career opportunities. Be sure to check on what kinds of jobs are available with us and what’s involved in getting those positions.",
+  header_image_path: "job.png",
+  sections: [
+    {
+      title: "Faculty Position",
+      experiences: [
+        {
+          title: "AWASAR Faculty",
+          company: "",
+          company_url: "",
+          logo_path: "job.png",
+          duration: "",
+          location: "Patna, AWASAR",
+          contactEmail: "",
+          contactNo: "+91 7903218495",
+          no_of_vacancy: "Chemistry-2, Physics-1 & Mathematics-1",
+          eligibility: [
+       	"⚡ Graduate/post-Graduate from reputed college.",
+        	"⚡ Must have 3 years of Teaching experience.",
+  	    ],
+          description:
+            "Currently we are looking for dynamic faculties of Chemistry, Physics & Mathematics",
+          color: "#0879bf",
+        },
+      ],
+     },
+     {
+      title: "Non-Teaching Staff Position",
+      experiences: [
+        {
+          title: "Tele-counsellors",
+          company: "",
+          company_url: "",
+          logo_path: "job.png",
+          duration: "",
+          location: "Patna, AWASAR",
+          contactEmail: "",
+          contactNo: "+91 7903218495",
+          no_of_vacancy: "Current Opening-2",
+          eligibility: [],
+          description:
+            "Currently we are looking for dynamic employee for this position",
+          color: "#0879bf",
+        },
+        {
+          title: "Sales Executive",
+          company: "",
+          company_url: "",
+          logo_path: "job.png",
+          duration: "",
+          location: "Patna, AWASAR",
+          contactEmail: "",
+          contactNo: "+91 7903218495",
+          no_of_vacancy: "Current Opening -1",
+          eligibility: [],
+          description:
+            "Currently we are looking for dynamic employee for this position",
+          color: "#0879bf",
+        },
+      ],
+     },
+   ],
 };
 
 // Projects Page
@@ -581,7 +741,11 @@ export {
   competitiveSites,
   degrees,
   certifications,
+  faculties,
+  organization,
+  non_teaching,
   experience,
+  carrier,
   projectsHeader,
   publicationsHeader,
   publications,
